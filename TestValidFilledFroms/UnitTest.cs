@@ -65,11 +65,11 @@ namespace TestProjectFieldValid
 
             if (isEmailValid)
             {
-                text = "Корректный формат адреса электронной почты";
+                text = "The email format is correct";
             }
             else
             {
-                text = "Некорректный формат адреса электронной почты";
+                text = "The email format is incorrect";
             }
 
             using (StreamWriter writer = new StreamWriter(path, false))
